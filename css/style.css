@@ -1,0 +1,123 @@
+.top-site-links {
+	margin-left: -8px;
+	top: 0px;
+	position: absolute;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+body {
+	font-family: Arial;
+}
+
+.left-side, .right-side {
+	/*margin: 0; */
+	margin: 10px 0 0 0;
+}
+
+.left-side {
+	float: left;
+	padding-left: 20px;
+}
+
+.right-side {
+	float: right;
+	padding-right: 20px;
+}
+
+
+
+.left-side li, .right-side li {
+	list-style: none;
+	display: inline;
+	line-height: 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	opacity: .75;
+}
+
+a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+.left-side a {
+	padding-right: 10px;
+}
+.right-side a {
+	padding-left: 10px;
+}
+
+#images-a-element {
+	padding-right: 8px;
+}
+
+.google-home-img {
+	display: block;
+	margin: 89px auto 0 auto;
+}
+
+.search-container {
+	
+	margin: 10px auto 10px auto;
+}
+
+.main-search-input {
+	display: block;
+	margin: 18px auto 0 auto;
+	width: 582px;
+	height: 44px;
+	border-radius: 30px;
+	border: 1px solid #ddd;
+	background-image: url(images/microphone-image.png);
+}
+
+.mic-container {
+	width: 582px;
+	height: 44px;
+	margin: -44px auto;
+	padding-right: 10px;
+}
+
+.mic-container i {
+	float: right;
+}
+
+.button-container {
+	margin: 66px auto 0 auto;
+	width: 500px;
+	height: 44px;
+	text-align: center;
+}
+
+.bottom-site-links {
+	margin-left: -8px;
+	bottom: 0px;
+	position: absolute;
+	width: 100%;
+	background-color: #f2f2f2;
+}
+
+.buttons {
+	height: 36px;
+	line-height: 27px;
+	width: 136px;
+	border-radius: 8px;
+	border-color: #f2f2f2;
+	border-style: solid;
+}
+
+
+
+
+
+/*.right-side li a:first-child {
+	padding-right: 8px;
+}
+
+.left-side li:nth-child(2), .left-side li:nth-child(3) {
+	margin-left: 7px;
+} */ 
