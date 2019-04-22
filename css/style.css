@@ -75,11 +75,33 @@ a:hover {
 	background-image: url(images/microphone-image.png);
 }
 
+
+
+.main-search-input-results {
+	display: inline;
+	margin-top: -100px;
+	width: 582px;
+	height: 44px;
+	border-radius: 30px;
+	border: 1px solid #ddd;
+}
+
 .mic-container {
 	width: 582px;
 	height: 44px;
 	margin: -44px auto;
 	padding-right: 10px;
+}
+
+.mic-container-results {
+	width: 635px;
+	height: 44px;
+	margin: -50px;
+	padding-right: 10px;
+}
+
+.mic-container-results i {
+	float: right;
 }
 
 .mic-container i {
@@ -110,14 +132,7 @@ a:hover {
 	border-style: solid;
 }
 
-
-
-
-
-/*.right-side li a:first-child {
-	padding-right: 8px;
+.logo-results {
+	display: inline;
+	margin-top: 20px;
 }
-
-.left-side li:nth-child(2), .left-side li:nth-child(3) {
-	margin-left: 7px;
-} */ 
